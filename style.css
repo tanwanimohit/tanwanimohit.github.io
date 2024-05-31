@@ -378,6 +378,18 @@ header {
     font-size: 3vh;
 }
 
+.speed-btn {
+    background: transparent;
+    border: 0;
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: roboto;
+    position: absolute;
+    top: 5%;
+    left: 95%;
+}
+
 @media only screen and (max-width: 1100px) {
     .flag-text {
         font-size: 2vh;
@@ -473,5 +485,10 @@ header {
         font-size: 2vh;
         height: 4vh;
         margin-top: 1vh;
+    }
+    .speed-btn {
+        font-size: 1.5vh;
+        left: 90%;
+        top: 1%;
     }
 }
