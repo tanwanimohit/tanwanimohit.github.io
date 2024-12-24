@@ -59,7 +59,7 @@ var i = 0;
 var j = 0;
 var speed = 50;
 function typeWriter() {
-    var txt = '/ <"name" : "Mohit Tanwani",/<"introduction" : "I am a full stack developer and I have a Masters Degree in Information and Technology. I am currently working on MERN stack",/<"email" : "iammohittanwani@gmail.com",/<"location" : "Ahmedabad, India",/<"hobbies" : "Photography and Cinematography"  //';
+    var txt = '/ <"name" : "Mohit Tanwani",/<"introduction" : "Experienced software engineer with expertise in Python, Java, and microservices architecture. Proven track record in authentication implementations, API development, and legacy code migration. Strong leadership skills with a focus on team collaboration and project management.",/<"email" : "iammohittanwani@gmail.com",/<"location" : "Bengaluru, India",/<"hobbies" : "Reading and Photography"  //';
     if (i == 0)
         document.getElementById("myself").innerHTML += "{<p class='tab' id='tab'> ";
     if (i < txt.length) {
